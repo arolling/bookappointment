@@ -14,20 +14,28 @@
       <div class="jumbotron">
         <h1>Request a Letter</h1>
       </div>
-      <form class="form-inline">
-        <div class="form-group">
-          <label for="nameInput">Name</label>
-          <input type="text" class="form-control" id="nameInput" placeholder="Jane Doe">
-        </div>
-        <button type="submit" class="btn btn-default">Request Letter</button>
-      </form>
+      <div id="nameForm">
+        <form class="form-inline">
+          <div class="form-group">
+            <label for="nameInput">Name</label>
+            <input type="text" class="form-control" id="nameInput" placeholder="Jane Doe">
+          </div>
+          <div class="form-group">
+            <label for="companyInput">Company</label>
+            <input type="text" class="form-control" id="companyInput" placeholder="lowercase">
+          </div>
+          <button type="submit" class="btn btn-default">Request Letter</button>
+        </form>
+      </div>
 
-      <div id="stor">
-        <h4>Dear <span class="nameInput"></span></h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <p>Sincerely,</p>
-        <p>Acme, Inc</p>
+      <div id="story">
+        <blockquote>
+          <h4>Dear <span class="nameInput"></span></h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p><span class="companyInput"></span> lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p>Sincerely,</p>
+          <p>Acme, Inc</p>
+        </blockquote>
       </div>
     </div>
   </body>
